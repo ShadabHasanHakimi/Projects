@@ -1,0 +1,281 @@
+@font-face {
+  font-family: NetflixSans;
+  src: url(./NetflixSans-Regular.otf);
+}
+@font-face {
+  font-family: NetflixSansBold;
+  src: url(./NetflixSans-Bold.otf);
+}
+
+* {
+  font-family: NetflixSans;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: black;
+}
+
+.main {
+  height: 93vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1800px, 100vw);
+  position: relative;
+}
+
+.main .box {
+  height: 93vh;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+.nav {
+  padding-top: 1.5rem;
+}
+
+nav {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 76vw;
+  margin: auto;
+  height: 48px;
+}
+
+nav img {
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.text {
+  height: 100%;
+  width: 80%;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  left: 10%;
+}
+
+.first,
+.second div,
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.first,
+.third {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.second {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.fourth {
+  font-size: 1.25rem;
+}
+
+.separation {
+  height: 1vh;
+  width: 100vw;
+  background-color: rgba(128, 128, 128, 0.285);
+}
+
+.btn {
+  padding: 6px 10px;
+  font-weight: 500;
+  background-color: rgb(0 0 0 / 33%);
+  border: 1px solid rgba(255, 255, 255, 0.299);
+  color: rgba(255, 255, 255, 0.922);
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.dropdown {
+  font-size: 0.7rem;
+  margin-left: 10px;
+}
+
+.btn-red {
+  background-color: #ff0000e6;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.btn-red-sm {
+  background-color: #ff0000e6;
+  color: white;
+  width: 75px;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+}
+
+.main input, .input{
+  padding: 20px 150px 12.5px 7px;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.455);
+  border-radius: 5px;
+  background-color: rgb(0 0 0 / 33%);
+}
+
+/* Section */
+.firstSec {
+  display: flex;
+  justify-content: center;
+  max-width: 75vw;
+  margin: auto;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.secImg img {
+  width: 37vw;
+  position: relative;
+  z-index: 10;
+}
+
+.secImg {
+  position: relative;
+}
+
+.first-text {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.video1 {
+  position: absolute;
+  width: 27vw;
+  left: 74px;
+  top: 88px;
+}
+
+.video2 {
+  position: absolute;
+  width: 23vw;
+  left: 106px;
+  top: 50px;
+}
+
+/* FAQ Section */
+.faq{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0px;
+}
+
+.ques1{
+  background-color: rgba(128, 128, 128, 0.356);
+  width: 73vw;
+  font-size: 1.5rem;
+  height: 36px;
+  padding: 1.5rem;
+  margin: 0.55rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ques1:hover{
+  background-color: rgba(128, 128, 128, 0.464);
+}
+
+.fa-add:before, .fa-plus:before {
+  content: "\2b";
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.input{
+  background-color: #8080802e;
+}
+
+.faq-text{
+  margin-top: 3rem;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  width: 80vw;
+  height: 256px;
+  margin: 5rem;
+}
+
+.foot-panel-1{
+  padding-left: 1rem;
+  height: 30px;
+  color: rgba(255,255,255,0.7);
+  display: flex;
+  align-items: center;
+}
+
+.foot-panel-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  padding-right: 12rem;
+  margin-bottom: 2rem;
+}
+
+ul a{
+  color: rgba(255,255,255,0.7);
+  text-decoration: underline;
+  display: block;
+  margin-left: 1rem;
+  margin-top: 0.85rem;
+}
+
+.foot-panel-3{
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.footer-btn{
+  background-color: #8080802e;
+  border: 1px solid rgb(255 255 255 / 26%);
+}
