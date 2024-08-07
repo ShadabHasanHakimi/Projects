@@ -17,7 +17,7 @@ This project is a frontend-based single-page clone of the Amazon website, create
 - Google Fonts: For custom fonts.
 
 ## Contact
-If you have any questions or suggestions, feel free to contact the project maintainer:
+If you have any questions or suggestions, feel free to contact here:
 
-Name: Shadab Hasan Hakimi
-Email: shadabhasanhakimi@gmail.com
+- Name: Shadab Hasan Hakimi
+- Email: shadabhasanhakimi@gmail.com
