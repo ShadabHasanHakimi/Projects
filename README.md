@@ -21,3 +21,5 @@ If you have any questions or suggestions, feel free to contact here:
 
 - Name: Shadab Hasan Hakimi
 - Email: shadabhasanhakimi@gmail.com
+
+Thank you for checking out this project! Happy coding!
