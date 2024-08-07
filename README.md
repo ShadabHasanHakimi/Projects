@@ -1,4 +1,6 @@
 # Project 1: Amazon Clone Project
+### [Check out the project here!](https://github.com/user-attachments/assets/a379a7b9-f5ba-4501-806c-0ed4e1950ab6)
+
 
 ## Introduction
 This project is a frontend-based single-page clone of the Amazon website, created for educational purposes. It mimics the appearance and some functionalities of the Amazon homepage, allowing users to experience a familiar interface while exploring the code and design behind it. The project is built using HTML, CSS, and Font Awesome for icons.
