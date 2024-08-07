@@ -12,6 +12,12 @@ This project is a frontend-based single-page clone of the Amazon website, create
 - Shop Sections: Highlights various product categories such as new arrivals, health, furniture, electronics, etc.
 - Footer: Contains links to various Amazon services and informational pages.
 
+## Project Screenshots
+![1](https://github.com/user-attachments/assets/efa47294-7cf2-4186-9ab2-23e9b5331ed0)
+![2](https://github.com/user-attachments/assets/69ce960d-301f-4fa9-93a1-aa325ff954af)
+
+
+
 ## Technologies Used
 - HTML5: For structuring the webpage.
 - CSS3: For styling the webpage.
