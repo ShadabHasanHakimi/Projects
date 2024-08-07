@@ -1,5 +1,5 @@
 # Project 1: Amazon Clone Project
-### [Check out the project here!](https://github.com/user-attachments/assets/a379a7b9-f5ba-4501-806c-0ed4e1950ab6)
+### [Check out the project here!](https://shadabhasanhakimi.github.io/Projects/Project_1_AmazonClone/index.html)
 
 
 ## Introduction
