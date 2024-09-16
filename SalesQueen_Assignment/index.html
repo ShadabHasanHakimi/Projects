@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="square"><i class="bi bi-layers"></i></span>
+          <p class="left-text">
+            Olivia <br />
+            Miller
+          </p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search dashboard..."
+              aria-label="Search"
+            />
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-outline-primary right-text">
+                  <span class="cyan-color">Switch Company</span>
+                </button>
+                <div class="btn-group">
+                  <button
+                    class="btn btn-outline-primary dropdown-toggle right-text"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Oliver Miller <Pre style="display: inline;">                </Pre>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a class="navbar-brand last" href="#">
+                <span class="square"><i class="bi bi-person-lines-fill"></i></span>
+                <p class="right-text">
+                  Welcome back, <br />
+                  <span class="cyan-color">Yossi!</span>
+                </p>
+                <span class="arrow-down cyan-color">
+                  <i class="bi bi-chevron-down"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="btn-group btn-group-main shadow" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <label class="btn btn-outline-primary btn-radio" for="btnradio1"><i class="bi bi-speedometer2"></i> Dashboard</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio2"><i class="bi bi-arrow-down-circle"></i> Receivables</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio3"><i class="bi bi-arrow-left-circle"></i> Returns</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio4"><i class="bi bi-person"></i>Customers</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio5"><i class="bi bi-credit-card"></i>Payable</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio6"><i class="bi bi-currency-dollar"></i>Sales</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio7"><i class="bi bi-list-ul"></i>Inventory</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio8"><i class="bi bi-arrow-down"></i>Imports</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio9" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio9"><i class="bi bi-tag"></i>Cutting <br>Tickets</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio10" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio10"><i class="bi bi-arrow-left-right"></i>EDI</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio11" autocomplete="off">
+        <label class="btn btn-outline-primary btn-radio" for="btnradio11"><i class="bi bi-geo-alt"></i>Showroom</label>
+      </div>
+
+      <!-- Grid structure -->
+      <div class="grid-container">
+        <div class="item1 item shadow">
+          <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+            <div class="heading"><i class="bi bi-graph-up report"></i>Reports</div>
+            <div class="list-item">Company Snapshot</div>
+            <div class="list-item">Open Order Report</div>
+            <div class="list-item">Cut & Sold Lookup</div>
+            <div class="list-item">Inventory Snapshot</div>
+            <div class="list-item">Balance to sell Sales Summary</div>
+            <div class="list-item">Open Orders to Pick</div>
+            <div class="list-item">Period Comparison Report</div>
+            <div class="list-item">SR Availability</div>
+            <div class="list-item">Sales Forecast Report</div>
+            <div class="list-item">Detailed Period Comparison Report</div>
+            <div class="list-item">Style Cost Report</div>
+            <div class="list-item">Style Cost Report (Sales Person)</div>
+            <div class="list-item">Shipping/Receiving Log</div>
+            <div class="list-item">Receiving Summary</div>
+            <div class="list-item">Style Availability By Date</div>
+            <div class="list-item">Purchase Order Report</div>
+            <div class="list-item">Shipping Report</div>
+            <div class="list-item">Traffic Report</div>
+            <div class="list-item">Image Cut & Sold Report</div>
+            <div class="list-item">Style Sheets</div>
+          </div>
+        </div>
+        <div class="item2 item">
+          <div class="container text-center row-1">
+            <div class="row second-box-row">
+              <div class="col icon-link-hover">
+                <div class="square-icon icon1">
+                  <i class="bi bi-currency-dollar"></i>
+                </div>
+                <div class="text">
+                  <span class="number">$32,350.00</span>
+                  <br>
+                  <span class="sub-heading">Total Revenue</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="square-icon icon2">
+                  <i class="bi bi-arrow-up-right"></i>
+                </div>
+                <div class="text">
+                  <span class="number">$6000</span>
+                  <br>
+                  <span class="sub-heading">Total Expenses</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="square-icon icon3">
+                  <i class="bi bi-credit-card"></i>
+                </div>
+                <div class="text">
+                  <span class="number">$56,034.00</span>
+                  <br>
+                  <span class="sub-heading">Accounts Receivable</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="square-icon icon4">
+                  <i class="bi bi-credit-card"></i>
+                </div>
+                <div class="text">
+                  <span class="number">$67,083.00</span>
+                  <br>
+                  <span class="sub-heading">Accounts Payable</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center row-2">
+            <div class="row second-box-row">
+              <div class="col">
+                <div class="square-icon icon5">
+                  <i class="bi bi-image"></i>
+                </div>
+                <div class="text">
+                  <span class="number">$3,478</span>
+                  <br>
+                  <span class="sub-heading">Items missing images</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="square-icon icon6">
+                  <i class="bi bi-currency-dollar"></i>
+                </div>
+                <div class="text">
+                  <span class="number">$237</span>
+                  <br>
+                  <span class="sub-heading">Items missing FOB Costs</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="square-icon icon7">
+                  <i class="bi bi-currency-dollar"></i>
+                </div>
+                <div class="text">
+                  <span class="number">$160</span>
+                  <br>
+                  <span class="sub-heading">PO items missing costs</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="square-icon icon8">
+                  <i class="bi bi-journal-bookmark"></i>
+                </div>
+                <div class="text">
+                  <span class="number">0/$0.00</span>
+                  <br>
+                  <span class="sub-heading">Booked</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="item3 item">
+          <div class="container text-center">
+            <div class="row third-box-row">
+              <div class="col">
+               <div class="p-3">
+                <div class="graph-label">
+                  <span>Invoices</span>
+                </div>
+                <div class="graph"></div>
+               </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <div class="graph-label">
+                    <span>Sales Forecast</span>                  
+                  </div>
+                  <div class="graph"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item4 item shadow">
+          <div class="d-flex align-items-center">
+            <div class="spinner-border ms-auto spinner" aria-hidden="true"></div>
+            <strong role="status">Loading More...</strong>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+      integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
